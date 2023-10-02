@@ -25,6 +25,8 @@ const config: Config = {
         e4: "rgba(255, 251, 251, 0.26)",
         e6: "rgba(255, 255, 255, 0.51)",
         boxBorder:"rgba(255, 255, 255, 0.0588)",
+        acent:"rgba(0, 255, 163, 1)",
+        "t-text":"rgba(95, 100, 105, 0.6)",
       },
       borderWidth: {
         "2": "2px",
@@ -44,7 +46,7 @@ const config: Config = {
       blur: {
         "600xl": "200px",
       },
-      dropShadow: {
+      boxShadow: {
         "box-1": "0px 0px 17px 0px rgba(0, 255, 163, 0.05) inset",
       },
     },
