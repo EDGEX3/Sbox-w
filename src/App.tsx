@@ -1,22 +1,15 @@
-import Grid from './components/Grid'
-// import Navbar from './components/Navbar'
-import Box from './components/Box'
-import Signup from './pages/Signup'
-import './index.css'
-
+import { Route, Routes } from "react-router-dom";
+import "./css/index.css";
+import { Hero } from "./layout/hero";
 
 function App() {
-
   return (
     <>
-      <Grid>
-        <Box>
-          {/* <Navbar></Navbar> */}
-          <Signup></Signup>
-        </Box>
-      </Grid>
+      <Routes>
+        <Route path="/*" element={<Hero/>}/>
+      </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

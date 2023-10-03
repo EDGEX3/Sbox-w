@@ -4,8 +4,8 @@ import Input from "../components/Input"
 
 
 export default function Signup() {
+    console.log("signup");
     
-
     return (
 
         <Box>
