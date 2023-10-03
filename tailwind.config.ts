@@ -22,6 +22,7 @@ const config: Config = {
         bgElipce:"rgba(0, 255, 163, 0.18)",
         boxBg: "#050505",
         insideBoxBg: "rgba(255, 251, 251, 0.03)",
+        e2:"rgba(255, 255, 255, 0.51)",
         e4: "rgba(255, 251, 251, 0.26)",
         e6: "rgba(255, 255, 255, 0.51)",
         boxBorder:"rgba(255, 255, 255, 0.0588)",
