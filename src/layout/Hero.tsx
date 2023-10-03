@@ -2,7 +2,7 @@ import { Route, Routes } from "react-router-dom";
 import Box from "../components/Box";
 import Grid from "../components/Grid";
 import Navbar from "../components/Navbar";
-import Signup from "../pages/Signup";
+import Auth from "./Auth";
 
 export const Hero = () => (
   <Grid>
@@ -10,7 +10,7 @@ export const Hero = () => (
       <Navbar></Navbar>
       <main>
         <Routes>
-          <Route path="signup" element={<Signup/>}/>
+          <Route path="auth/*" element={<Auth/>}/>      
         </Routes>
       </main>
     </Box>
