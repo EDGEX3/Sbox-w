@@ -2,7 +2,7 @@
 
 const Box = (prop:any) => {
   return (
-    <div className="mt-14 mx-20 ">
+    <div className="mt-14 mx-20">
         {prop.children}
     </div>
   )

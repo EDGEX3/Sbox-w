@@ -23,11 +23,14 @@ const config: Config = {
         boxBg: "#050505",
         insideBoxBg: "rgba(255, 251, 251, 0.03)",
         e2:"rgba(255, 255, 255, 0.51)",
+        e3:"rgba(255, 251, 251, 0.03)",
         e4: "rgba(255, 251, 251, 0.26)",
+        e5:"rgba(255, 251, 251, 1)",
         e6: "rgba(255, 255, 255, 0.51)",
         boxBorder:"rgba(255, 255, 255, 0.0588)",
         acent:"rgba(0, 255, 163, 1)",
         "t-text":"rgba(95, 100, 105, 0.6)",
+        
       },
       borderWidth: {
         "2": "2px",
@@ -43,6 +46,7 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "lingre":"linear-gradient(217deg, rgba(255, 251, 251, 0.26) 4.49%, rgba(217, 217, 217, 0.16) 98.49%)"
       },
       blur: {
         "600xl": "200px",
