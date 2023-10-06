@@ -42,14 +42,14 @@ export default function Navbar() {
         />
         <Route path="/auth/signup" element={
           <div className="AlreadyHaveAnAccountSignIn">
-            <span className="text-gray-600 text-base font-normal font-['Hubot-Sans'] tracking-tight">Already have an account?</span>
-            <Link to="/auth/login" className="text-white text-base font-normal font-['Hubot-Sans'] tracking-tight"> Log in →</Link>
+            <span className="text-gray-600 text-base font-normal tracking-tight">Already have an account?</span>
+            <Link to="/auth/login" className="text-white text-base font-normal tracking-tight"> Log in →</Link>
           </div>}
         />
         <Route path="/auth/login" element={
           <div className="AlreadyHaveAnAccountSignIn">
-            <span className="text-gray-600 text-base font-normal font-['Hubot-Sans'] tracking-tight">I want to join!</span>
-            <Link to="/auth/signup" className="text-white text-base font-normal font-['Hubot-Sans'] tracking-tight"> Sign up →</Link>
+            <span className="text-gray-600 text-base font-normal tracking-tight">I want to join!</span>
+            <Link to="/auth/signup" className="text-white text-base font-normal tracking-tight"> Sign up →</Link>
           </div>}
         />
       </Routes>

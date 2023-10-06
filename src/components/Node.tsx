@@ -14,8 +14,8 @@ const Node = (props: NodeData) => {
         <div className={"w-48 h-20 relative bg-e3 rounded-boxRadius border-solid border-2 border-boxBorder flex " + props.classname} >
             <div className="p-3 flex items-center">
                 <div className="px-2  ">
-                    <div className="mb-1 text-e6 text-base font-semibold  font-['Hubot-Sans'] ">{props.title}</div>
-                    <div className=" text-e2 text-[10px] font-['Hubot-Sans'] ">{props.description}</div>
+                    <div className="mb-1 text-e6 text-base font-semibold">{props.title}</div>
+                    <div className=" text-e2 text-[10px]">{props.description}</div>
                 </div>
                 <div className="w-6 h-6">
                     <div className="w-6 h-6  bg-lingre rounded-2xl   flex items-center justify-center">
