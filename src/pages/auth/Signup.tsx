@@ -10,6 +10,7 @@ export default function Signup() {
   const [showPass,setShowPass] = useAtom(password)
   useEffect(() => {
     setShowPass(false)
+   // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [])
   const inputData = [
     {
