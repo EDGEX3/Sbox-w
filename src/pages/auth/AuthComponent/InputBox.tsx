@@ -20,7 +20,7 @@ const InputBox = ({ inputData, discription, name }: Inputbox) => {
     <div className="h-auto w-[480px] px-[20px] py-[75px] rounded-boxRadius bg-insideBoxBg border-solid border-2 border-boxBorder">
       <div className="text-[36px] text-e6">{name}</div>
       <div className="text-[16px] text-e4">{discription}</div>
-      <div className="text-base tracking-tight w-[350px] h-[250px] mt-3 py-12 px-3 rounded-boxRadius bg-boxBg border-solid border-2 border-boxBorder text-t-text text-[14px] font-['JetBrains_Mono'] relative shadow-box-1 ">
+      <div className="text-base tracking-tight w-[350px] h-[250px] mt-3 py-12 px-3 rounded-boxRadius bg-boxBg border-solid border-2 border-boxBorder text-t-text text-[14px] font-['JetBrains-Mono'] relative shadow-box-1 ">
         <pre>
           <code>
             {"{\n"}

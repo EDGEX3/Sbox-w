@@ -33,7 +33,7 @@ export default function Navbar() {
                 to="/auth/signup"
                 className="w-20 h-8 bg-neutral-50 bg-opacity-5 rounded-2xl border border-zinc-300 border-opacity-40 justify-center items-center inline-flex"
               >
-                <div className="text-teal-400 text-sm font-medium font-['JetBrains_Mono'] ">
+                <div className="text-teal-400 text-sm font-medium font-['JetBrains-Mono'] ">
                   Signup
                 </div>
               </Link>

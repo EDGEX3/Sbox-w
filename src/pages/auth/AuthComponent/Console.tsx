@@ -16,7 +16,7 @@ const Console = ({ inputData,first,Second ,third}: Inputbox) => {
   }, [isconsole])
   
   return (
-    <div className="text-xs tracking-tight h-56 p-7 rounded-boxRadius bg-boxBg border-solid border-2 border-boxBorder shadow-box-1 font-['JetBrains_Mono'] text-[14px]">
+    <div className="text-xs tracking-tight h-56 p-7 rounded-boxRadius bg-boxBg border-solid border-2 border-boxBorder shadow-box-1 font-['JetBrains-Mono'] text-[14px]">
       {<span className="init text-t-text ">
         [{getformatAMPM(Time)}]{" "}
         <span className="text-white">
