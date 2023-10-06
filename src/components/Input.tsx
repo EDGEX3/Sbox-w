@@ -11,11 +11,11 @@ const Input = (props: InputsProps) => {
   const [isValue, setValue] = useState<number | string>("");
   return (
     <input
-      className="bg-transparent"
+      className="bg-transparent focus:outline-none "
       style={{ width: isSize, maxWidth: 180, minWidth: 20 }}
       value={isValue}
       onChange={(e) => {
-        setSize(e.target.value.length * 7);
+        setSize(e.target.value.length * 7+10);
         setValue(e.target.value);
       }}
       type={props.type}
