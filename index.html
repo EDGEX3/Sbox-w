@@ -10,14 +10,14 @@
     <style>
       @font-face {
         font-family: 'JetBrains-Mono';
-        src:local('JetBrains-Mono')
+        src:local('JetBrains-Mono'),
           url('/assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
         font-weight: 200 900;
         font-stretch: 75% 125%;
       }
       @font-face {
         font-family: 'Hubot-Sans';
-        src:local('Hubot-Sans')
+        src:local('Hubot-Sans'),
           url('/assets/fonts/Hubot-Sans-Regular.woff2') format('woff2');
         font-weight: 200 900;
         font-stretch: 75% 125%;
@@ -25,7 +25,7 @@
     </style>
   </head>
   <body>
-    <div id="root" class="font-['Hubot-Sans']"></div>
+    <div id="root" class="font-['Hubot-Sans','JetBrains-Mono']"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
